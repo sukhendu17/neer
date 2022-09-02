@@ -1,0 +1,45 @@
+.footerMainContainer{
+    background: #1B079C;
+    margin-top: 5%;
+    padding: 1%;
+}
+
+.footerContain{
+    margin-top:7%;
+    margin-bottom: 5%;
+    .formMargin{
+        margin-bottom: 2%;
+    }
+    .inputClass{ margin-right: 1%;}
+ .getintouch{
+     color: #fff;
+     text-decoration: underline;
+ }
+ .infoText{
+    color: #fff;
+ }
+ .contactBtn{
+     width: 40%;
+     margin-top: 3%;
+     color: #fff;
+     border: 1px solid #fff;
+ }
+ .address{ margin-top: 4%;}
+}
+.footerAddress{
+  list-style: none;
+    color: #fff;
+    padding: 0px;
+}
+.copyRightMainContainer{
+    background: #F8F8F8;
+    padding: 1px;
+}
+.copyRight{
+    text-align: center;
+    margin-top: 2%;
+}
+@media screen and (min-width:1024px) {
+    .address{ float: right; margin-top: 0% !important;}
+
+}

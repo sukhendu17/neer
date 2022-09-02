@@ -1,0 +1,36 @@
+.servicesContain{
+    margin-top:7%;
+    .titlePref{
+        text-decoration: underline;
+    }
+    .col{
+        margin-bottom: 2%;
+    }
+    .imgSec{
+        overflow: hidden;
+    }
+    .imgservice {
+        cursor: pointer;
+        width: 100%;
+        height: 230px;
+        -webkit-transition: all 0.2s ease;
+        /* Safari and Chrome */
+        -moz-transition: all 0.2s ease;
+        /* Firefox */
+        -ms-transition: all 0.2s ease;
+        /* IE 9 */
+        -o-transition: all 0.2s ease;
+        /* Opera */
+        transition: all 0.2s ease;
+    }
+    .imgservice:hover {
+        width: 100%;
+        height: 230px;
+        -ms-transform: scale(1.1);
+        /* IE 9 */
+        -webkit-transform: scale(1.1);
+        /* Safari 3-8 */
+        transform: scale(1.1);
+        
+    }
+}

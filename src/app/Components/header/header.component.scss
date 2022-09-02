@@ -1,0 +1,35 @@
+.bg-nav{ background-color: #fff !important;}
+ 
+.siteLogo{
+    width: 50%;
+    img{width: 25%;}
+}
+ 
+
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('/assets/menu.svg');
+}
+.navbar-toggler{
+    background:#1B079C;
+    color: rgba(255,255,255,255);
+    font-size: 1rem;
+}
+@media screen and (min-width:1024px) {
+    .navbar-nav{
+        a{
+            margin-right: 10px;
+        }
+        a:hover{
+            background: #1B079C;
+            color: #fff !important;
+            border-radius: 4px;
+        }
+    }
+    .active{
+        background: #1B079C;
+        color: #fff !important;
+        border-radius: 4px;
+    }
+    
+}

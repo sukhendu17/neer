@@ -1,0 +1,27 @@
+.worksContain{
+    margin-top:3%;
+    .titlePref{
+        text-decoration: underline;
+    }
+    .col{
+        margin-bottom: 2%;
+    }
+    
+    
+}
+.workMainContainer{padding: 3%;
+background: #F8F8F8;
+margin-top: 5%;
+}
+
+@media screen and (min-width:1024px) {
+    img{
+        filter: grayscale(100%);
+        max-height: 230px;
+    }
+    img:hover {
+        filter: none;
+        -webkit-filter: grayscale(0%);
+      }
+}
+

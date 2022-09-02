@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Tinos-Regular";
+    src: url("assets/fonts/Tinos/Tinos-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "Tinos-Bold";
+    src: url("assets/fonts/Tinos/Tinos-Bold.ttf") format("truetype");
+  
+    font-weight: bold;
+  }
+
+  .container{
+    font-family: "Tinos-Regular";
+  
+}
+  
